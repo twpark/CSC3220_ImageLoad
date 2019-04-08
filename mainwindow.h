@@ -17,6 +17,10 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+    QPixmap imageBears;
+
+    void loadImage();
 };
 
 #endif // MAINWINDOW_H
